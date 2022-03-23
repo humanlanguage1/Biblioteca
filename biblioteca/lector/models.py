@@ -1,6 +1,6 @@
 from django.db import models
 
-from biblioteca.applications.libro.models import Libro
+from libro.models import Libro
 
 # Create your models here.
 class Lector(models.Model):

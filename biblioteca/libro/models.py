@@ -1,6 +1,6 @@
 from django.db import models
 
-from biblioteca.applications.autor.models import Autor
+from autor.models import Autor
 
 # Create your models here.
 class Categoria(models.Model):
